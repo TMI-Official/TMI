@@ -5308,7 +5308,7 @@ function redrawAllRevolutionSliders() {
     if(tags = container.attr('data-tags')){
       tags = tags.split(/[ ,]+/).join(','); //remove spaces, add commas
 
-      // muffin builder, gutenberg, elementor
+      // TMI builder, gutenberg, elementor
       let columns = $('#Content .mfn-builder-content .column_column, #Content .mfn-builder-content .column_post_content, #Content .mfn-builder-content .column_heading, #Content .mfn-builder-content .column_fancy_heading, .the_content_wrapper:not(.is-elementor), .elementor-widget:not(.elementor-widget-mfn_table_of_contents)');
 
       if( $('#Content .mfn-single-post-tmpl-builder .column_post_content').length ){
